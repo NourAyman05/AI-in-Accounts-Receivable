@@ -37,3 +37,18 @@ The BPMN and use case diagrams were created using diagrams.net/draw.io.
 - `.drawio` files are editable diagram source files.
 - `.png` files are image versions for viewing.
 
+
+## How to Run the Prototype Code
+
+The prototype code was exported from Figma Make and is included in the `Prototype_code/` folder.
+
+To run the prototype locally:
+
+1. Make sure Node.js is installed on your device.
+2. Download or clone this repository.
+3. Open the `Prototype_code/` folder.
+4. Open a terminal inside the `Prototype_code/` folder.
+5. Install the required dependencies:
+
+```bash
+npm install
