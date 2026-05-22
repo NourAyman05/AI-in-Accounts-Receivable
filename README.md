@@ -19,8 +19,8 @@ The prototype was created as a Design Science Research artifact to show how AI t
 - `Diagrams_source_code/`  
   Contains the BPMN and use case diagram source files exported from diagrams.net/draw.io.
 
-- `Resources/`  
-  Contains notes about datasets or additional resources (but there are no datasets or additional resources in my project).
+- `resources/`  
+  Contains a note explaining that no external dataset was used.
 
 ## Prototype
 
@@ -37,7 +37,6 @@ The BPMN and use case diagrams were created using diagrams.net/draw.io.
 - `.drawio` files are editable diagram source files.
 - `.png` files are image versions for viewing.
 
-
 ## How to Run the Prototype Code
 
 The prototype code was exported from Figma Make and is included in the `Prototype_code/` folder.
@@ -52,3 +51,30 @@ To run the prototype locally:
 
 ```bash
 npm install
+
+6. Run the prototype:
+
+```bash
+npm run dev
+
+7. After running the command, the terminal will show a local link, such as:
+
+```bash
+http://localhost:5173
+
+Open this link in the browser to view the prototype locally.
+
+## Dependencies
+
+The required dependencies are listed in the package.json file inside the Prototype_code/ folder. They are installed automatically when running:
+```bash
+npm install
+
+## Dataset / Resources
+
+No external dataset was used in this project. The prototype uses sample/simulated Accounts Receivable data for demonstration purposes.
+
+## Notes
+- No real company financial data was used.
+- The prototype is a thesis artifact and is not a production-ready system.
+- The repository includes documentation, prototype code, diagram source code, and supporting resources.
