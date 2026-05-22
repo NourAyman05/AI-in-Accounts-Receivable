@@ -1,0 +1,1 @@
+No external dataset was used. The prototype uses sample/simulated Accounts Receivable data for demonstration purposes.
