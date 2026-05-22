@@ -51,30 +51,36 @@ To run the prototype locally:
 
 ```bash
 npm install
+```
 
 6. Run the prototype:
 
 ```bash
 npm run dev
+```
 
 7. After running the command, the terminal will show a local link, such as:
 
 ```bash
 http://localhost:5173
+```
 
 Open this link in the browser to view the prototype locally.
 
 ## Dependencies
 
-The required dependencies are listed in the package.json file inside the Prototype_code/ folder. They are installed automatically when running:
+The required dependencies are listed in the `package.json` file inside the `Prototype_code/` folder. They are installed automatically when running:
+
 ```bash
 npm install
+```
 
 ## Dataset / Resources
 
 No external dataset was used in this project. The prototype uses sample/simulated Accounts Receivable data for demonstration purposes.
 
 ## Notes
+
 - No real company financial data was used.
 - The prototype is a thesis artifact and is not a production-ready system.
 - The repository includes documentation, prototype code, diagram source code, and supporting resources.
